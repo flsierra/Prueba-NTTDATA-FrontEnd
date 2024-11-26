@@ -1,59 +1,49 @@
-# ClienteApp
+Prueba Técnica - Backend con Spring Boot y Frontend con Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+Este repositorio contiene la implementación de una prueba técnica que incluye la creación de una API REST usando Spring Boot para el backend, documentación con Swagger, y un frontend desarrollado en Angular. El proyecto está diseñado para demostrar habilidades en el desarrollo de aplicaciones web modernas con pruebas unitarias y una interfaz interactiva.
+Características del Proyecto
+Backend - Spring Boot
 
-## Development server
+    Framework: Spring Boot 3.
+    Arquitectura REST: Endpoints para manejar operaciones específicas.
+    Documentación: Swagger UI integrada para visualizar y probar los endpoints.
+    Pruebas Unitarias: Incluyen cobertura básica para garantizar la funcionalidad del API.
+    JSON Estático: Datos de cliente simulados para la demostración.
 
-To start a local development server, run:
+Frontend - Angular
 
-```bash
-ng serve
-```
+    Framework: Angular 19.
+    Formulario Interactivo:
+        Selección de tipo de documento (Cédula o Pasaporte).
+        Validación de número de documento (entre 8 y 11 caracteres).
+    Interfaz Dinámica:
+        Formulario de búsqueda de cliente.
+        Resumen de datos del cliente tras enviar la solicitud.
+    Routing: Implementación de rutas para navegar entre las vistas.
+    Estilos: CSS responsivo y limpio.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Tecnologías Utilizadas
+Backend
 
-## Code scaffolding
+    Java 17
+    Spring Boot 3
+    Swagger 3 para documentación interactiva.
+    JUnit y Mockito para pruebas unitarias.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Frontend
 
-```bash
-ng generate component component-name
-```
+    Angular 19
+    TypeScript
+    Bootstrap para un diseño atractivo.
+    Reactive Forms para la validación del formulario.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Requisitos Previos
+Backend
 
-```bash
-ng generate --help
-```
+    Java 17 o superior.
+    Maven 3.8 o superior.
 
-## Building
+Frontend
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+    Node.js 18 o superior.
+    Angular CLI versión 15 o superior.
