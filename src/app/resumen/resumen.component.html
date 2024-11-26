@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>Resumen del Cliente</h2>
+  <div *ngIf="cliente">
+    <p><strong>Tipo de Documento:</strong> {{ cliente.tipoDocumento }}</p>
+    <p><strong>Número de Documento:</strong> {{ cliente.numeroDocumento }}</p>
+    <button class="btn btn-primary" (click)="volver()">Volver</button>
+  </div>
+  <div *ngIf="!cliente">
+    <p>No se encontraron datos del cliente.</p>
+    <button class="btn btn-primary" (click)="volver()">Volver al Inicio</button>
+  </div>
+</div>
